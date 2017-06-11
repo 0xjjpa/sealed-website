@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# Blockchain scripts for adding data (included in README.md)
+index.js
+package-lock.json
