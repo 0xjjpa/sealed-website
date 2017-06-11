@@ -150,7 +150,7 @@ Each request the webpage will return a different value, rendering the entire val
 To verify this, you can compare two downloads of the same website and compare against them with `diff` and `colordiff`.
 Ideally, store them in hexadecimal value with `hexdump` so you can compare them and find the issue.
 
-```
+```bash
 $ curl https://jjperezaguinaga.com > curl.web
 $ vim fetch.web # value stored manually from JavaScript fetch query
 $ hexdump curl.web > curl.hex
